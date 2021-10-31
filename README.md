@@ -20,8 +20,8 @@ paper.
 | Official Full Name  | Student ID (MTech Applicable)  | Work Items (Who Did What) | Email (Optional) |
 | :------------ |:---------------:| :-----| :-----|
 | Wu Yubin | A0231318N | • Django Web server implementation <br>• System architectuer and integration<br>• User Guide <br>• JBPM drools system | E0703350@u.nus.edu |
-| Lan Yuchen | A0231434R | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| A1234567B@gmail.com |
-| Lan Weihan | A0231334U | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| A1234567C@outlook.com |
+| Lan Yuchen | A0231434R | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| E0703466@u.nus.edu |
+| Lan Weihan | A0231334U | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| A1234567@outlook.com
 | Zhang Yan | A0231554L | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| A1234567D@yahoo.com |
 
 ---
