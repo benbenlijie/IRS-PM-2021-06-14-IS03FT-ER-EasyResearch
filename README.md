@@ -28,12 +28,9 @@ paper.
 
 ## SECTION 4 : VIDEO OF SYSTEM MODELLING & USE CASE DEMO
 
-`<Github File Link>` : <https://github.com/benbenlijie/IRS-PM-2021-06-14-IS03FT-ER-EasyResearch/blob/master/Video/IRS-PM-2021-06-14-IS03FT-ER-EasyResearch-System.mp4>
+[System Design Video]: https://github.com/benbenlijie/IRS-PM-2021-06-14-IS03FT-ER-EasyResearch/blob/master/Video/IRS-PM-2021-06-14-IS03FT-ER-EasyResearch-System.mp4 "github file link"
 
-Video is available on Youtube at https://youtu.be/oqF29D1ApXs
-
-[!Easy Research](https://youtu.be/oqF29D1ApXs "Easy Research")
-
+[Easy Research on Youtube]: https://youtu.be/oqF29D1ApXs "System Design"
 
 ---
 
@@ -61,7 +58,10 @@ $ `pip install -r frontend/requirements.txt`
 
 `Refer to project report at Github Folder: ProjectReport`
 
-`<Github File Link>`: 
+
+[project report]: https://github.com/benbenlijie/IRS-PM-2021-06-14-IS03FT-ER-EasyResearch/blob/master/ProjectReport/project_report_paper_recommendation.pdf	"report pdf"
+
+
 
 ---
 ## SECTION 7 : MISCELLANEOUS
