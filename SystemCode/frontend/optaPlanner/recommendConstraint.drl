@@ -1,0 +1,69 @@
+//created on: 2021骞�10鏈�5鏃�
+package com.IRS.optaplanner
+
+//list any import classes here.
+import com.IRS.optaplanner.Similarity;
+
+
+//declare any global variables here
+global org.optaplanner.core.api.score.buildin.hardsoft.HardSoftScoreHolder scoreHolder;
+
+
+rule "AuthorConstriant"
+    when
+        //conditions
+        $paper : Paper($authors:authors )
+        User ($requiredAuthors:requiredAuthors)
+        exists User(paper == $paper)
+    then
+        //actions
+        scoreHolder.reward(kcontext, Similarity.getSimilarity($requiredAuthors, $authors));
+end
+
+rule "CategoryConstriant"
+    when
+        //conditions
+        $paper : Paper($category:category )
+        User ($requiredCategory:requiredCategory)
+        exists User(paper == $paper)
+    then
+        //actions
+        scoreHolder.reward(kcontext, Similarity.getSimilarity($requiredCategory, $category));
+end
+
+rule "DateConstriant"
+    when
+        //conditions
+        $paper : Paper($date:date )
+        User ($requiredDate:requiredDate)
+        exists User(paper == $paper)
+    then
+        //actions
+        scoreHolder.reward(kcontext, Similarity.getSimilarity($requiredDate, $date));
+end
+
+rule "TitleConstriant"
+    when
+        //conditions
+        $paper : Paper($keyword:keyword)
+        User ($requiredTitle:requiredTitle)
+        exists User(paper == $paper)
+    then
+        //actions
+        scoreHolder.reward(kcontext, Similarity.getSimilarity($requiredTitle, $keyword));
+end
+
+rule "SourceConstriant"
+    when
+        //conditions
+        $paper : Paper($source:source)
+        User ($requiredSource:requiredSource)
+        exists User(paper == $paper)
+    then
+        //actions
+        scoreHolder.reward(kcontext, Similarity.getSimilarity($requiredSource, $source));
+end
+
+
+
+

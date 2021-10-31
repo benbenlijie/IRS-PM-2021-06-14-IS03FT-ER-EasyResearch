@@ -1,0 +1,28 @@
+calories (kcal): 2652.0, cal threshold: 0.05, sodium (mg):2300.0, sugar (g):30.0, carbs: 0.5 (+-0.05), isDiabetic: true, takesBeef:false, max_history: 7
+Exception in thread "main" java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)
+Caused by: java.lang.ExceptionInInitializerError
+	at com.thoughtworks.xstream.XStream.setupConverters(XStream.java:990)
+	at com.thoughtworks.xstream.XStream.<init>(XStream.java:593)
+	at com.thoughtworks.xstream.XStream.<init>(XStream.java:515)
+	at com.thoughtworks.xstream.XStream.<init>(XStream.java:484)
+	at com.thoughtworks.xstream.XStream.<init>(XStream.java:430)
+	at com.thoughtworks.xstream.XStream.<init>(XStream.java:369)
+	at org.optaplanner.core.impl.solver.XStreamXmlSolverFactory.buildXStream(XStreamXmlSolverFactory.java:51)
+	at org.optaplanner.core.impl.solver.XStreamXmlSolverFactory.<init>(XStreamXmlSolverFactory.java:76)
+	at org.optaplanner.core.impl.solver.XStreamXmlSolverFactory.<init>(XStreamXmlSolverFactory.java:68)
+	at org.optaplanner.core.api.solver.SolverFactory.createFromXmlResource(SolverFactory.java:89)
+	at org.mew.MealPlannerApp.main(MealPlannerApp.java:69)
+	... 5 more
+Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make field private final java.util.Comparator java.util.TreeMap.comparator accessible: module java.base does not "opens java.util" to unnamed module @4d339552
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:354)
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:297)
+	at java.base/java.lang.reflect.Field.checkCanSetAccessible(Field.java:178)
+	at java.base/java.lang.reflect.Field.setAccessible(Field.java:172)
+	at com.thoughtworks.xstream.core.util.Fields.locate(Fields.java:40)
+	at com.thoughtworks.xstream.converters.collections.TreeMapConverter.<clinit>(TreeMapConverter.java:50)
+	... 16 more
