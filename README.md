@@ -6,7 +6,12 @@
 
 ## SECTION 2 : EXECUTIVE SUMMARY / PAPER ABSTRACT
 
+In daily study or completion of projects, or in the process of research, previous researchers’ considerable contributions open our mind and provide us with subject inspirations and related technique thoughts. Standing on the shoulders of giants helps us to make larger achievements on academic fields. On the market of paper recommendation, there is not a well-established paper recommendation system which are suitable and targeted for students’ daily study about computer science. Traditional paper search platforms usually store a great deal of papers, which are come from different subjects, different fields, different language, and have long time span. After searching in this kind of platform, it provides users a comparison of the keywords and do not take in to account the user preferences and past preferences. With the overwhelming number of papers, individuals will have more options and different perspectives of the problem, but it also means the time consuming and might not result in choosing the best paper. So, it is an imminent thing to develop a professional and accurate paper recommendation system on computer science.
 
+Easy Research Paper Recommendation System is a system to provide intelligent recommendation on the computer science papers,
+1. Considering users’ interest field and evaluating his preference to choose the sequence of recommended
+paper.
+2. Historical data of the user and other users are taken into consideration. 3. Evaluating the user’s input keywords.
 
 ---
 
@@ -23,7 +28,11 @@
 
 ## SECTION 4 : VIDEO OF SYSTEM MODELLING & USE CASE DEMO
 
-[![Paper Recommender System](http://img.youtube.com/vi/-AiYLUjP6o8/0.jpg)]( "Sudoku AI Solver")
+`<Github File Link>` : <https://github.com/benbenlijie/IRS-PM-2021-06-14-IS03FT-ER-EasyResearch/blob/master/Video/IRS-PM-2021-06-14-IS03FT-ER-EasyResearch-System.mp4>
+
+Video is available on Youtube at https://youtu.be/oqF29D1ApXs
+
+[!Easy Research](https://youtu.be/oqF29D1ApXs "Easy Research")
 
 
 ---
