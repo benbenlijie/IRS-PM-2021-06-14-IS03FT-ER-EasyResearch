@@ -1,0 +1,11 @@
+title,author,date,url
+RyanSpeech: A Corpus for Conversational Text-to-Speech Synthesis,"Zandie.Rohola,Mahoor.Mohammad H.,Madsen.Julia,Emamian.Eshrat S,",2021/6/17,https://arxiv.org/abs/2106.08468
+Narrow-band Deep Filtering for Multichannel Speech Enhancement,"LI.Xiaofei,Horaud.Radu.",2020/9/24,https://arxiv.org/abs/1911.10791
+Supervised Speech Separation Based on Deep Learning: An Overview,"Wang.DeLiang,Chen.Jitong.",2018/6/18,https://arxiv.org/abs/1708.07524
+Deep Text-to-Speech System with Seq2Seq Model,Wang.Gary.,2019/3/19,https://arxiv.org/abs/1903.07398
+Aphasic Speech Recognition using a Mixture of Speech Intelligibility  Experts,"Perez.Matthew,Aldeneh.Zakaria,Provost.Emily Mower.",2020/8/26,https://arxiv.org/abs/2008.10788
+Improved Language Identification Through Cross-Lingual Self-Supervised  Learning,"Tjandra.Andros,Choudhury.Diptanu Gon,Zhang.Frank,Singh.Kritika,Conneau.Alexis,Baevski.Alexei,Sela.Assaf,Saraf.Yatharth,Auli.Michael.",2021/8/6,https://arxiv.org/abs/2107.04082
+Light Gated Recurrent Units for Speech Recognition,"Ravanelli.Mirco,Brakel.Philemon,Omologo.Maurizio,Bengio.Yoshua.",2018/3/29,https://arxiv.org/abs/1803.10225
+Low Rank and Sparsity Analysis Applied to Speech Enhancement via Online  Estimated Dictionary,"Sun.Pengfei,Qin.Jun.",2016/12/21,https://arxiv.org/abs/1609.09231
+On model architecture for a children's speech recognition interactive  dialog system,"Kraleva.Radoslava,Kralev.Velin.",2016/5/26,https://arxiv.org/abs/1605.07733
+Practical Speech Recognition with HTK,Hatala.Zulkarnaen.,2019/8/7,https://arxiv.org/abs/1908.02119

@@ -1,0 +1,37 @@
+{% extends 'baseLoggedIn.html' %}
+{% block title %}PaperRecommand - Create Recommended{% endblock %}
+{% load static %}
+{% block scripthead %}
+{% endblock %}
+{% block content %}
+            <div class="loggedin-content">
+                <form method="POST" id="createPaper-form" class="signup-form" action="/createRecommand/">
+                    {% csrf_token %}
+                    <h2 class="form-title">Hi <span style="color: #417690;">{{user.username}}</span>, what kind of paper do you like to find?</h2>
+
+                    {% for field in form %}
+                    <div class="form-group">
+                        {{field.label_tag}}
+                        {% if field.field.required %}
+                        <span class="label_required">*</span>
+                        {% endif %}<br>
+
+                        {{ field }}<br>
+                        {% if field.help_text %}
+                        <small style="color: grey">{{ field.help_text }}</small>
+                        {% endif %}
+                        {% for error in field.errors %}
+                        <p style="color: red">{{ error }}</p>
+                        {% endfor %}
+                    </div>
+                    <br>
+                    {% endfor %}
+
+                    <div class="form-group">
+                        <input type="submit" name="submit" id="createRecommand_submit" class="form-submit" value="Create!"/>
+                    </div> 
+
+                </form>
+            </div>
+      
+{% endblock %}

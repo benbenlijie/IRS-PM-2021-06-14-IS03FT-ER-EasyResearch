@@ -1,0 +1,43 @@
+{% extends 'baseLoggedIn.html' %}
+{% block title %}PaperRecommand - View Plans{% endblock %}
+{% load static %}
+{% block scripthead %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/datatables.css' %}"/>
+{% endblock %}
+
+{% block content %}
+            <div class="loggedin-content">
+                    <h2 class="form-title"><span style="color: #417690;">{{user.username}}</span>, this is your paper recommandation <br /></h2>
+                    
+                    <div style="background:#fff">
+                        {% for r in results %}
+                        <h2 class="meal-title">Paper: {{forloop.counter}}</h2>
+                        <table class="detailedMenu" id="paper{{i}}">
+                          <tr>
+                            <th class="meal" >Title</th>
+                            <td>{{r.title}}</td>
+                          </tr>
+                          <tr>
+                            <th class="meal">Author</th>
+                            <td>{{r.author}}</td>
+                          </tr>
+                          <tr>
+                            <th class="meal">Published Date</th>
+                            <td>{{r.date}}</td>
+                          </tr>
+                          <tr>
+                            <th class="meal">Link</th>
+                              <td><a href="{{ r.url }}">{{r.url}}</a></td>
+                          </tr>
+                        </table>
+                        
+                        <hr class="accessory"></hr>
+                        {% endfor %}                  
+                    </div>                    
+            </div>
+      
+{% endblock %}
+
+{% block extrascripts %}
+<script type="text/javascript" src="{% static 'js/datatables.min.js' %}"></script>
+{% endblock %}

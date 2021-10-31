@@ -1,0 +1,13 @@
+{% extends 'baseLoggedIn.html' %}
+{% block title %}PaperRecommand Home{% endblock %}
+
+{% block content %}
+            <div class="loggedin-content">
+                {% csrf_token %}
+                <img src="/static/images/icons/paper.jpg" class="loader" style="width: 30%;">
+                <h2 class="form-title">Hi <span style="color: #417690;">{{user.username}}</span>, what would you like to do today?</h2>
+                <a id="but_viewRecommand" class="form-submit" href="/viewRecommand/">View The List</a>
+                <a id="but_createRecommand" class="form-submit" href="/createRecommand/">Create new Recommendation</a>
+
+            </div>
+{% endblock %}
