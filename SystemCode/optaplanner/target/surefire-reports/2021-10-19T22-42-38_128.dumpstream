@@ -1,0 +1,15 @@
+# Created at 2021-10-19T22:42:43.313
+WARNING: An illegal reflective access operation has occurred
+
+# Created at 2021-10-19T22:42:43.313
+WARNING: Illegal reflective access by org.drools.core.rule.builder.dialect.asm.ClassGenerator (file:/C:/Users/Administrator/.m2/repository/org/drools/drools-core/7.10.0.Final/drools-core-7.10.0.Final.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int)
+
+# Created at 2021-10-19T22:42:43.314
+WARNING: Please consider reporting this to the maintainers of org.drools.core.rule.builder.dialect.asm.ClassGenerator
+
+# Created at 2021-10-19T22:42:43.314
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+
+# Created at 2021-10-19T22:42:43.315
+WARNING: All illegal access operations will be denied in a future release
+

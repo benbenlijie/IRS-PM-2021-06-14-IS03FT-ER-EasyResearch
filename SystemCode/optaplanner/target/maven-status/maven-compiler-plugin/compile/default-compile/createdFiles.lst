@@ -1,0 +1,10 @@
+com\IRS\optaplanner\PaperDAOimpl.class
+com\IRS\optaplanner\Paper.class
+com\IRS\optaplanner\PaperConstraintConfiguration.class
+com\IRS\optaplanner\Solution.class
+com\IRS\optaplanner\CustomHumanTaskHandler.class
+com\IRS\optaplanner\Opta.class
+com\IRS\optaplanner\Similarity.class
+com\IRS\optaplanner\User.class
+com\IRS\optaplanner\PaperDAO.class
+com\IRS\optaplanner\App.class
