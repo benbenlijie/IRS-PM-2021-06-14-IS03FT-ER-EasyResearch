@@ -1,0 +1,23 @@
+-------------------------------------------------------------------------------
+Test set: com.IRS.optaplanner.FuzzyWuzzyTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 4.63 s <<< FAILURE! - in com.IRS.optaplanner.FuzzyWuzzyTest
+test(com.IRS.optaplanner.FuzzyWuzzyTest)  Time elapsed: 4.629 s  <<< ERROR!
+java.lang.IllegalStateException: 
+There are errors in a score DRL:
+Error Messages:
+Message [id=1, kieBase=defaultKieBase, level=ERROR, path=recommendConstraint.drl, line=34, column=0
+   text=Rule Compilation error The method reward(RuleContext, int) is undefined for the type HardSoftScoreHolder]
+Message [id=2, kieBase=defaultKieBase, level=ERROR, path=recommendConstraint.drl, line=45, column=0
+   text=Rule Compilation error The method reward(RuleContext, int) is undefined for the type HardSoftScoreHolder]
+Message [id=3, kieBase=defaultKieBase, level=ERROR, path=recommendConstraint.drl, line=12, column=0
+   text=Rule Compilation error The method reward(RuleContext, int) is undefined for the type HardSoftScoreHolder]
+Message [id=4, kieBase=defaultKieBase, level=ERROR, path=recommendConstraint.drl, line=23, column=0
+   text=Rule Compilation error The method reward(RuleContext, int) is undefined for the type HardSoftScoreHolder]
+---
+Warning Messages:
+---
+Info Messages:
+
+	at com.IRS.optaplanner.FuzzyWuzzyTest.test(FuzzyWuzzyTest.java:45)
+
