@@ -28,9 +28,9 @@ paper.
 
 ## SECTION 4 : VIDEO OF SYSTEM MODELLING & USE CASE DEMO
 
-[System Design Video]: https://github.com/benbenlijie/IRS-PM-2021-06-14-IS03FT-ER-EasyResearch/blob/master/Video/IRS-PM-2021-06-14-IS03FT-ER-EasyResearch-System.mp4 "github file link"
+<Github File Link> : https://github.com/benbenlijie/IRS-PM-2021-06-14-IS03FT-ER-EasyResearch/blob/master/Video/IRS-PM-2021-06-14-IS03FT-ER-EasyResearch-System.mp4
 
-[Easy Research on Youtube]: https://youtu.be/oqF29D1ApXs "System Design"
+[Easy Research on Youtube](https://youtu.be/oqF29D1ApXs "System Design")
 
 ---
 
