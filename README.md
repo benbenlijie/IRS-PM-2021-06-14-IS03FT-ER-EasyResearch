@@ -21,16 +21,16 @@ paper.
 | :------------ |:---------------:| :-----| :-----|
 | Wu Yubin | A0231318N | • Django Web server implementation <br>• System architectuer and integration<br>• User Guide <br>• JBPM drools system | E0703350@u.nus.edu |
 | Lan Yuchen | A0231434R | • Optaplanner implementation <br>• System integration<br>• Data preparation and processing<br>• JBPM drools system | E0703466@u.nus.edu |
-| Lan Weihan | A0231334U | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| A1234567@outlook.com
+| Lan Weihan | A0231334U | • NLP processing for dataset <br>• Recommendation work in python module<br>• JBPM drools system | E0703466@u.nus.edu|
 | Zhang Yan | A0231554L | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| A1234567D@yahoo.com |
 
 ---
 
 ## SECTION 4 : VIDEO OF SYSTEM MODELLING & USE CASE DEMO
 
-<Github File Link> : <https://github.com/benbenlijie/IRS-PM-2021-06-14-IS03FT-ER-EasyResearch/blob/master/Video/IRS-PM-2021-06-14-IS03FT-ER-EasyResearch-System.mp4>
+[System Design Video]: https://github.com/benbenlijie/IRS-PM-2021-06-14-IS03FT-ER-EasyResearch/blob/master/Video/IRS-PM-2021-06-14-IS03FT-ER-EasyResearch-System.mp4 "github file link"
 
-[Easy Research on Youtube](https://youtu.be/oqF29D1ApXs "System Design")
+[Easy Research on Youtube]: https://youtu.be/oqF29D1ApXs "System Design"
 
 ---
 
