@@ -22,7 +22,7 @@ paper.
 | Wu Yubin | A0231318N | • Django Web server implementation <br>• System architectuer and integration<br>• User Guide <br>• JBPM drools system | E0703350@u.nus.edu |
 | Lan Yuchen | A0231434R | • Optaplanner implementation <br>• System integration<br>• Data preparation and processing<br>• JBPM drools system | E0703466@u.nus.edu |
 | Lan Weihan | A0231334U | • NLP processing for dataset <br>• Recommendation work in python module<br>• JBPM drools system | E0703466@u.nus.edu|
-| Zhang Yan | A0231554L | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| A1234567D@yahoo.com |
+| Zhang Yan | A0231554L | • Project design <br>• KIE workbench <br>• Project report | A0231554L@u.nus.edu |
 
 ---
 
